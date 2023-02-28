@@ -1,0 +1,12 @@
+package hu.nive.ujratervezes.softwaredevcompany;
+
+public class Developer extends Worker{
+    public Developer(int experience) {
+        super(experience);
+    }
+
+    public  void doPairProgramming(Developer otherDeveloper){
+        experience++;
+        otherDeveloper.experience++;
+    }
+}
